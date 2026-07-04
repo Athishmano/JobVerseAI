@@ -76,31 +76,6 @@ Then navigate to `http://localhost:3000` in your browser.
 
 ---
 
-## 🐳 Docker Support
-
-JobBot comes with a Dockerfile based on the official Microsoft Playwright image to ensure all browser dependencies work out of the box.
-
-### Build the Image
-```bash
-docker build -t jobbot .
-```
-
-### Run via Docker
-Because JobBot requires your profile configuration, stores persistent session data, and outputs results, you need to map volumes:
-
-```bash
-docker run -it \
-  -p 3000:3000 \
-  -v $(pwd)/config:/app/config \
-  -v $(pwd)/data:/app/data \
-  -v $(pwd)/results:/app/results \
-  jobbot --limit 20
-```
-
-*Note: For the dashboard to open correctly from within a container, you will need to manually open `http://localhost:3000` on your host machine once the run completes.*
-
----
-
 ## 📂 Architecture
 
 - **`config/`**: User configuration (`profile.json`) and secrets (`.env`).
