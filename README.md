@@ -26,7 +26,7 @@ The results are presented in a sleek, dark-mode, glassmorphic local dashboard.
 ### Local Setup
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Athishmano/JobVerseAI.git
    cd job-bot
    ```
 
