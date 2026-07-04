@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "name": "Athish",
+    "email": "[EMAIL_ADDRESS]",
+    "phone": "+91",
+    "location": "Coimbatore"
+  },
+  "resume_pdf_path": "Path",
+  "summary": "i'm a full stack develoepr with hands on experience in naxt.js, react, python, java",
+  "experience": [
+    {
+      "company": "fieldez",
+      "role": "full stack developer intern",
+      "start_date": "YYYY-MM",
+      "end_date": "YYYY-MM",
+      "_comment_end_date": "Use 'present' if this is your current role",
+      "bullets": [
+        "Achievement-focused bullet with metrics if possible (e.g. 'Reduced API latency by 40% by migrating to async handlers')",
+        "Another bullet point"
+      ]
+    }
+  ],
+  "_comment_experience": "Add one object per role. Most recent first. The bot sends this to Gemini for scoring.",
+  "education": [
+    {
+      "institution": "SCHOOL_OR_UNIVERSITY_NAME",
+      "degree": "B.E",
+      "field": "computer science and engineering",
+      "year": 2026
+    }
+  ],
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "SQL",
+    "MongoDB",
+    "Supabase",
+    "RESTful APIs",
+    "Pandas",
+    "NLP",
+    "Web Scraping",
+    "Streamlit",
+    "Git",
+    "Docker",
+    "AWS (EC2, S3)",
+    "CI/CD",
+    "Responsive Design"
+  ],
+  "_comment_skills": "List every technical skill you want matched against job descriptions. This is the single biggest driver of the AI score. Include languages, frameworks, tools, cloud platforms, etc.",
+  "certifications": [
+    "Full Stack Software Developer (IBM)",
+    "UX Design Professional (Google)",
+    "Advanced React (Meta)"
+  ],
+  "_comment_hackathons": "Optional — delete the array entirely if not applicable.",
+  "job_preferences": {
+    "titles": [
+      "Full Stack Developer",
+      "Frontend Developer",
+      "React Developer",
+      "Software Developer Intern",
+      "Web Developer"
+    ],
+    "_comment_titles": "Each title is used as a search query on every portal. The combo count ([Naukri N/24]) = len(titles) × len(locations). Keep this list focused.",
+    "locations": [
+      "Coimbatore",
+      "Chennai",
+      "Bangalore",
+      "Remote"
+    ],
+    "_comment_locations": "Each location is paired with each title above for search. Use 'Remote' as a literal string for remote-only searches.",
+    "remote_ok": true,
+    "_comment_remote_ok": "If true, remote jobs are not filtered out regardless of location.",
+    "min_salary": null,
+    "_comment_min_salary": "Set a number in the local currency unit (e.g. 600000 for 6 LPA) or leave null for no salary filter.",
+    "max_experience_years": 1,
+    "_comment_max_exp": "Jobs explicitly requiring MORE than this many years of experience are rejected before AI scoring. Set to a high number (e.g. 99) to disable.",
+    "blacklist_companies": [],
+    "_comment_blacklist_companies": "Company names (case-insensitive substring match). Jobs from these companies are rejected before AI scoring.",
+    "blacklist_keywords": [
+      "unpaid internship",
+      "commission only",
+      "staff engineer",
+      "director",
+      "VP",
+      "architect"
+    ],
+    "_comment_blacklist_keywords": "Any keyword matched in the job title OR description immediately rejects the job before AI scoring. Case-insensitive.",
+    "whitelist_keywords": [
+      "fresher",
+      "web developer",
+      "full stack",
+      "frontend",
+      "AI"
+    ],
+    "min_ai_match_score": 40,
+    "_comment_min_score": "Jobs scoring below this integer (0–100) go to the Failed file. Adjust based on how selective you want the bot to be."
+  },
+  "screening_answers": {
+    "years_of_experience": "0",
+    "current_ctc": "Fresher",
+    "expected_ctc": "Negotiable",
+    "notice_period": "Immediate",
+    "willing_to_relocate": true,
+    "work_authorization": "Yes, authrized to work",
+    "sponsorship_required": false
+  }
+}

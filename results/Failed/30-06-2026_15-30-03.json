@@ -1,0 +1,21 @@
+{
+  "timestamp": "30-06-2026/15:30:03",
+  "sites_scraped": [
+    "naukri"
+  ],
+  "total_failed": 1,
+  "rejected_jobs": [
+    {
+      "source": "naukri",
+      "job_id": "999",
+      "title": "MERN Developer",
+      "company": "Acme Corp",
+      "location": "Remote",
+      "url": "https://naukri.com/999",
+      "applicant_count": null,
+      "rejection_reason": "low_ai_score",
+      "rejection_detail": "Score below threshold",
+      "ai_score": 22
+    }
+  ]
+}

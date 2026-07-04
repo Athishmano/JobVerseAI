@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobBot Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+    <!-- Background elements -->
+    <div class="bg-glow blob-1"></div>
+    <div class="bg-glow blob-2"></div>
+
+    <div class="app-container">
+        <!-- Sidebar / Navigation -->
+        <aside class="sidebar glass-panel">
+            <div class="brand">
+                <i data-lucide="bot" class="brand-icon"></i>
+                <h1>JobBot</h1>
+            </div>
+            
+            <div class="nav-section">
+                <h3>Runs</h3>
+                <ul id="runs-list" class="run-list">
+                    <!-- Populated by JS -->
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="glass-panel main-header">
+                <div class="header-info">
+                    <h2 id="current-run-title">Select a Run</h2>
+                    <p id="current-run-stats" class="text-muted">Loading stats...</p>
+                </div>
+                <div class="view-toggles">
+                    <button id="btn-passed" class="toggle-btn active">
+                        <i data-lucide="check-circle-2"></i> Passed Matches
+                    </button>
+                    <button id="btn-failed" class="toggle-btn">
+                        <i data-lucide="x-circle"></i> Rejected
+                    </button>
+                </div>
+            </header>
+
+            <div class="controls-bar glass-panel">
+                <div class="search-box">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="search-input" placeholder="Filter by title, company, or skills...">
+                </div>
+                <div class="sort-box">
+                    <i data-lucide="arrow-up-down"></i>
+                    <select id="sort-select">
+                        <option value="score_desc">AI Score (High to Low)</option>
+                        <option value="score_asc">AI Score (Low to High)</option>
+                        <option value="date_desc">Date Posted (Newest)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Jobs Container -->
+            <div id="jobs-container" class="jobs-grid">
+                <!-- Job cards populated by JS -->
+                <div class="empty-state">
+                    <i data-lucide="inbox" class="empty-icon"></i>
+                    <p>Select a run from the sidebar to view extracted jobs.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Job Modal (Slide over) -->
+    <div id="job-modal" class="modal-overlay hidden">
+        <div class="modal-panel glass-panel">
+            <button id="close-modal" class="icon-btn"><i data-lucide="x"></i></button>
+            <div id="modal-content" class="modal-scroll-area">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+{
+  "timestamp": "30-06-2026/18:36:32",
+  "sites_scraped": [
+    "naukri"
+  ],
+  "limit_per_site": 50,
+  "total_scraped": 100,
+  "total_passed": 3,
+  "total_failed": 97,
+  "best_matches": [
+    {
+      "source": "naukri",
+      "job_id": "190626503118",
+      "title": "AI Full Stack Developer Intern",
+      "company": "Eholler Digital Services",
+      "location": "Chennai",
+      "salary": "Unpaid",
+      "url": "https://www.naukri.com/job-listings-ai-full-stack-developer-intern-eholler-digital-services-chennai-0-to-1-years-190626503118",
+      "description": "",
+      "posted_date": "Starts in 1-3 months",
+      "employment_type": null,
+      "experience_required": "3 months duration",
+      "skills_required": [],
+      "applicant_count": null,
+      "is_duplicate": false,
+      "ai_score": 75,
+      "reasoning": "The candidate has a strong foundation in full-stack development with relevant skills like React, Node.js, and Python. The internship duration and focus align well with the candidate's current career stage. However, the job description lacks specific details about AI technologies, which is a key part of the role title.",
+      "strengths": [
+        "Full-stack development experience with React and Node.js",
+        "Proficiency in Python",
+        "Experience with databases like SQL and MongoDB",
+        "Familiarity with cloud platforms (AWS)",
+        "Internship experience aligns with the role level"
+      ],
+      "missing_skills": [
+        "Specific AI/ML frameworks or libraries (e.g., TensorFlow, PyTorch, scikit-learn)",
+        "Experience with AI model deployment or integration",
+        "Knowledge of AI concepts and algorithms"
+      ],
+      "recommendation": "Consider",
+      "improvement_tips": "Highlight any projects or coursework related to AI, machine learning, or data science to better align with the 'AI' aspect of the job title. If no direct AI experience exists, emphasize transferable skills like data manipulation (Pandas) or NLP and express a strong eagerness to learn AI technologies."
+    },
+    {
+      "source": "naukri",
+      "job_id": "270625503824",
+      "title": "Web Developer ( Full Stack )",
+      "company": "Smartxpose Technologies",
+      "location": "Coimbatore",
+      "salary": null,
+      "url": "https://www.naukri.com/job-listings-web-developer-full-stack-smartxpose-technologies-coimbatore-2-to-5-years-270625503824",
+      "description": "Web technologiesDevelopmentStackWeb developmentFull Stack",
+      "posted_date": "3+ weeks ago",
+      "employment_type": null,
+      "experience_required": "2-5 Yrs",
+      "skills_required": [],
+      "applicant_count": null,
+      "is_duplicate": false,
+      "ai_score": 75,
+      "reasoning": "The candidate has a strong foundation in full-stack development with relevant skills like React, Node.js, and databases. However, the required experience level of 2-5 years is higher than what an intern typically possesses, and specific experience with Next.js, while listed in the summary, is not detailed in the work experience.",
+      "strengths": [
+        "Full-stack development experience",
+        "Proficiency in React, Node.js, Express.js, Python, SQL, MongoDB",
+        "Familiarity with cloud platforms (AWS) and CI/CD",
+        "Location match (Coimbatore)"
+      ],
+      "missing_skills": [
+        "2-5 years of professional web development experience"
+      ],
+      "recommendation": "Consider",
+      "improvement_tips": "Highlight specific projects or contributions during the internship that demonstrate the required 2-5 years of experience, or tailor the resume to emphasize transferable skills and learning agility for junior roles if this position is indeed too senior."
+    },
+    {
+      "source": "naukri",
+      "job_id": "301225508261",
+      "title": "JUNIOR FULL STACK WEB DEVELOPER",
+      "company": "Cloud Counselage",
+      "location": "Coimbatore",
+      "salary": null,
+      "url": "https://www.naukri.com/job-listings-junior-full-stack-web-developer-cloud-counselage-pvt-ltd-coimbatore-1-to-4-years-301225508261",
+      "description": "jQueryCodingPostgresqlMySQLDebuggingJavascriptUnit testingTroubleshooting",
+      "posted_date": "3+ weeks ago",
+      "employment_type": null,
+      "experience_required": "1-4 Yrs",
+      "skills_required": [],
+      "applicant_count": null,
+      "is_duplicate": false,
+      "ai_score": 65,
+      "reasoning": "The candidate has a good foundational skill set that aligns with the job description, particularly in JavaScript and full-stack development. However, the required experience level (1-4 years) is slightly higher than what can be inferred from the candidate's current profile (internship).",
+      "strengths": [
+        "JavaScript",
+        "Full Stack Development",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "SQL",
+        "AWS",
+        "Git",
+        "Docker"
+      ],
+      "missing_skills": [
+        "jQuery",
+        "PostgreSQL",
+        "Debugging",
+        "Unit testing",
+        "Troubleshooting"
+      ],
+      "recommendation": "Consider",
+      "improvement_tips": "Highlight any specific projects or contributions during the internship that demonstrate debugging, unit testing, or troubleshooting skills. If possible, gain some exposure to jQuery and PostgreSQL to strengthen the application."
+    }
+  ]
+}

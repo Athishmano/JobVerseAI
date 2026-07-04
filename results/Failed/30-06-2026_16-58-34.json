@@ -1,0 +1,69 @@
+{
+  "timestamp": "30-06-2026/16:58:34",
+  "sites_scraped": [
+    "naukri"
+  ],
+  "total_failed": 5,
+  "rejected_jobs": [
+    {
+      "source": "naukri",
+      "job_id": "220526503807",
+      "title": "Krea Teaching Fellows",
+      "company": "IFMR Graduate School of Business (IFMR GSB)",
+      "location": "Sri City",
+      "url": "https://www.naukri.com/job-listings-krea-teaching-fellows-krea-university-sri-city-0-to-2-years-220526503807",
+      "applicant_count": null,
+      "rejection_reason": "low_ai_score",
+      "rejection_detail": "Score 15 < minimum 40",
+      "ai_score": 15
+    },
+    {
+      "source": "naukri",
+      "job_id": "290426016552",
+      "title": "Manager -Microbiology & Food Safety",
+      "company": "Mondelez",
+      "location": "Sri City",
+      "url": "https://www.naukri.com/job-listings-manager-microbiology-food-safety-mondelez-sri-city-7-to-12-years-290426016552",
+      "applicant_count": null,
+      "rejection_reason": "low_ai_score",
+      "rejection_detail": "Score 0 < minimum 40",
+      "ai_score": 0
+    },
+    {
+      "source": "naukri",
+      "job_id": "300626012300",
+      "title": "Quality Engineer",
+      "company": "Ess Kay Fabrication",
+      "location": "Sri City",
+      "url": "https://www.naukri.com/job-listings-quality-engineer-ess-kay-fabrication-sri-city-2-to-3-years-300626012300",
+      "applicant_count": null,
+      "rejection_reason": "low_ai_score",
+      "rejection_detail": "Score 5 < minimum 40",
+      "ai_score": 5
+    },
+    {
+      "source": "naukri",
+      "job_id": "240626026326",
+      "title": "Extrusion Machine Operator",
+      "company": "Vision India Services",
+      "location": "Sri City",
+      "url": "https://www.naukri.com/job-listings-extrusion-machine-operator-vision-india-services-sri-city-2-to-7-years-240626026326",
+      "applicant_count": null,
+      "rejection_reason": "low_ai_score",
+      "rejection_detail": "Score 0 < minimum 40",
+      "ai_score": 0
+    },
+    {
+      "source": "naukri",
+      "job_id": "280526503556",
+      "title": "Senior Manager, Academic Adminisitration (GSB)",
+      "company": "IFMR Graduate School of Business (IFMR GSB)",
+      "location": "Sri City",
+      "url": "https://www.naukri.com/job-listings-senior-manager-academic-adminisitration-gsb-krea-university-sri-city-3-to-9-years-280526503556",
+      "applicant_count": null,
+      "rejection_reason": "low_ai_score",
+      "rejection_detail": "Score 5 < minimum 40",
+      "ai_score": 5
+    }
+  ]
+}

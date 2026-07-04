@@ -1,0 +1,45 @@
+{
+  "timestamp": "30-06-2026/18:38:32",
+  "sites_scraped": [
+    "naukri"
+  ],
+  "limit_per_site": 50,
+  "total_scraped": 100,
+  "total_passed": 1,
+  "total_failed": 99,
+  "best_matches": [
+    {
+      "source": "naukri",
+      "job_id": "301225508261",
+      "title": "JUNIOR FULL STACK WEB DEVELOPER",
+      "company": "Cloud Counselage",
+      "location": "Coimbatore",
+      "salary": null,
+      "url": "https://www.naukri.com/job-listings-junior-full-stack-web-developer-cloud-counselage-pvt-ltd-coimbatore-1-to-4-years-301225508261",
+      "description": "jQueryCodingPostgresqlMySQLDebuggingJavascriptUnit testingTroubleshooting",
+      "posted_date": "3+ weeks ago",
+      "employment_type": null,
+      "experience_required": "1-4 Yrs",
+      "skills_required": [],
+      "applicant_count": null,
+      "is_duplicate": false,
+      "ai_score": 75,
+      "reasoning": "The candidate has a strong foundation in full-stack development with relevant skills like JavaScript, React, and Node.js. The required experience level is a good match, and the location is ideal. However, the candidate lacks explicit experience with jQuery, PostgreSQL, and MySQL, which are mentioned in the job description.",
+      "strengths": [
+        "Full Stack Development Experience",
+        "JavaScript and React Proficiency",
+        "Node.js and Express.js Knowledge",
+        "Database Experience (MongoDB, Supabase)",
+        "Cloud (AWS) and CI/CD Exposure",
+        "Location Match (Coimbatore)"
+      ],
+      "missing_skills": [
+        "jQuery",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "recommendation": "Consider",
+      "improvement_tips": "While the candidate has experience with modern JavaScript frameworks, it would be beneficial to gain some familiarity with jQuery, PostgreSQL, and MySQL, as these are explicitly mentioned in the job description. Consider completing a small personal project or online course that incorporates these technologies."
+    }
+  ]
+}
